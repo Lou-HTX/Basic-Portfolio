@@ -1,0 +1,42 @@
+body {
+    background-image: url("../images/LuisMorenoBackground.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.about {
+    float: left;
+}
+
+.AboutImg {
+    float: left;
+}
+
+.connect {
+    float: left;
+    background-color: #fff;
+}
+
+h2 {
+    color: #2eb8b8;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-top: 10px;
+    border-top-color: #2eb8b8;
+    border-top-style: solid;
+    background-color: #036;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    color: #fff;
+}
+
+.footerlink {
+    color: #fff;    
+}
