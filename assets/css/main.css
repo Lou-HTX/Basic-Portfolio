@@ -1,24 +1,20 @@
-/*html {
-    display: table;
-    height: 100%;
-    width: 100%;
+html,
+body {
+	/*margin: 0;*/
+	display: table;
+	height: 100%;
+	width: 100%;
+	background-image: url("../images/LuisMorenoBackground.png");
+	background-position: center;
 }
 
+/*responsive content*/
 .wrapper {
-    padding: 20px;
-    height: auto;
-
-}*/
-
-/*page margins, background, and width*/
-body {
-    background-image: url("../images/LuisMorenoBackground.png");
-    background-position: center;
-    background-size: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
+	height: auto;
+	margin-left: 12%;
+	margin-right: 3%;
+	margin-top: 7%;
+	height: auto;
 }
 
 /*links in nav bar aside from name*/
@@ -33,7 +29,7 @@ body {
 .name:link, .name:visited {
     float: left;
     margin-left: 12.5%;
-    margin-right: 30%;
+    margin-right: 38%;
     background-color: #2eb8b8;
     color: #fff;
     text-align: center;
@@ -62,9 +58,9 @@ ul {
 #aboutme {
     float: left;
     background-color: #fff;
-    width: 45%;
+    width: 50%;
     padding: 3%;
-    margin-top: 10%;
+    margin-left: auto;
     margin-right: 3%;
 }
 
@@ -90,7 +86,6 @@ ul {
     float: left;
     background-color: #fff;
     padding: 2%;
-    margin-top: 10%;
 }
 
 /*style for the headings connect with me and about me*/
@@ -109,21 +104,22 @@ h2 {
     padding-top: 4%;
 }
 
-/*footer bar with copyright info*/
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-top: 10px;
+/*colored border for footer*/
+.footerwrapper {
+	border-top: 10px;
     border-top-color: #2eb8b8;
     border-top-style: solid;
-    background-color: #036;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 20px;
+    height: auto;
+}
+
+/*sticky footer*/
+footer {
+	background-color: #036;
+	display: table-row;
+	height: 1px;
+	color: #fff;
     text-align: center;
-    color: #fff;
-    margin-top: 100px;
 }
 
 /*change the color of the link in the footer to white*/

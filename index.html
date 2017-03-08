@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Luis Moreno</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Luis Moreno</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  </head>
 
-<body>
+  <body>
 <!-- Header section and nav bar -->
-<NAV>
-  <a class="name" href="index.html">Luis Moreno</a>
-  <a href="">About</a>
-  <a href="Portfolio.html">Portfolio</a>
-  <a href="Contact.html">Contact</a>
-</NAV>
+  <ul>
+    <li><a class="name" href="index.html">Luis Moreno</a></li>
+    <li><a class="headerlink" href="#aboutme">About</a></li>
+    <li><a class="headerlink" href="Portfolio.html">Portfolio</a></li>
+    <li><a class="headerlink" href="Contact.html">Contact</a></li>
+  </ul>
+
 <!-- About Me section -->
-<section>
-  <!-- heading -->
-  <h1>About Me</h1>
-  <!-- Colored line brake for heading titles -->
-  <div class="line"></div>
-  <!-- about me image -->
-  <img class="AboutImg" src="assets/images/LuisMorenoProfile.png">
-  <!-- about me text -->
-      <p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a hendrerit ex, at blandit sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus felis sem, non pulvinar odio fermentum vel. Nunc varius tempus scelerisque.
-        Curabitur congue magna vitae velit dictum, eu finibus neque bibendum. In hac habitasse platea dictumst. Aliquam fermentum lobortis felis, in feugiat diam congue ac. </p>
-</section>
-<!-- Connect with me social media -->
-<section class="connect">
-  <!-- heading -->
-  <h2>Connect with Me</h2>
-  <!-- line brake -->
-  <div class="line"></div>
-  <!-- social media icons -->
-  <nav>
-    <a href="http://github.com/Lou-HTX" target="_blank"><img src="assets/images/LuisMorenoGitHub.png"></a>
-    <a href="http://www.linkedin.com/in/luis-moreno-8a294774/" target="_blank"><img src="assets/images/LuisMorenoLinkedIn.png"></a>
-    <a href="http://stackexchange.com/users/10076578/luis-moreno" target="_blank"><img src="assets/images/LuisMorenoStackOverflow.png"></a>
-  </nav>
-</section>
+<div class="wrapper">
+    <section id="aboutme">
+    <!-- heading -->
+      <h2>About Me</h2>
+    <!-- about me image -->
+      <img class="AboutImg" src="assets/images/LuisMorenoProfile.png">
+    <!-- about me text -->
+      <div class="text">
+        <p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a hendrerit ex, at blandit sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus felis sem, non pulvinar odio fermentum vel. Nunc varius tempus scelerisque.</p>
+        <p class ="about">Curabitur congue magna vitae velit dictum, eu finibus neque bibendum. In hac habitasse platea dictumst. Aliquam fermentum lobortis felis, in feugiat diam congue ac. </p>
+        <p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a hendrerit ex, at blandit sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus felis sem, non pulvinar odio fermentum vel. Nunc varius tempus scelerisque.</p>
+        <p class ="about">Curabitur congue magna vitae velit dictum, eu finibus neque bibendum. In hac habitasse platea dictumst. Aliquam fermentum lobortis felis, in feugiat diam congue ac. </p>
+      </div>
+    </section>
 
-<!-- Footer -->
-<footer>@copyright 2017 <a class="footerlink" href="Louhtx.com">Luis Moreno</a></footer>
+  <!-- Connect with me social media -->
+    <section class="connect">
+    <!-- heading -->
+      <h2>Connect with Me</h2>
+    <!-- social media icons -->
+      <nav class="icons">
+        <a href="http://github.com/Lou-HTX" target="_blank"><img src="assets/images/LuisMorenoGitHub.png"></a>
+        <a href="http://www.linkedin.com/in/luis-moreno-8a294774/" target="_blank"><img src="assets/images/LuisMorenoLinkedIn.png"></a>
+        <a href="http://stackexchange.com/users/10076578/luis-moreno" target="_blank"><img src="assets/images/LuisMorenoStackOverflow.png"></a>
+      </nav>
+    </section>
+</div>
 
-</body>
+  <!-- Footer -->
+    <footer>
+      <div class="footerwrapper">@copyright 2017 <a class="footerlink" href="http://Louhtx.com" target="_blank">Luis Moreno</a>
+      </div>
+    </footer>
+  </body>
 </html>
