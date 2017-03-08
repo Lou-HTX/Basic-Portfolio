@@ -8,6 +8,7 @@ body {
 	background-position: center;
 }
 
+
 /*responsive content*/
 .wrapper {
 	height: auto;
@@ -19,6 +20,7 @@ body {
 
 /*links in nav bar aside from name*/
 .headerlink {
+    font-family: georgia, times, "times new roman", serif;
     float: left;
     color: #bfbfbf;
     text-decoration: none;
@@ -28,9 +30,10 @@ body {
 /*name in nav bar style*/
 .name:link, .name:visited {
     float: left;
+    font-family: georgia, times, "times new roman", serif;
     margin-left: 12.5%;
     margin-right: 38%;
-    background-color: #2eb8b8;
+    background-color: #4aaaa5;
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -47,7 +50,7 @@ body {
 /*nav bar position and style*/
 ul {
     background-color: #fff;
-    border-bottom: solid #2eb8b8 5px;
+    border-bottom: solid #ccc 5px;
     position: fixed;
     top: 0;
     left: 0;
@@ -56,12 +59,15 @@ ul {
 
 /*about me area*/
 #aboutme {
+    font-family: arial, helvetica, sans-serif, 'helvetica neue';
     float: left;
     background-color: #fff;
     width: 50%;
     padding: 3%;
     margin-left: auto;
     margin-right: 3%;
+    margin-bottom: 3%;
+    color: #777;
 }
 
 /*padding added to bring text down further*/
@@ -91,11 +97,12 @@ ul {
 /*style for the headings connect with me and about me*/
 h2 {
     font-weight: bold;
+    font-family: georgia, times, "times new roman", serif;
     font-size: 25px;
-    color: #2eb8b8;
+    color: #4aaaa5;
     padding-bottom: 4%;
     border-bottom: solid;
-    border-bottom-color: #eee;
+    border-bottom-color: #ddd;
     border-bottom-width: 5px;
 }
 
@@ -107,7 +114,7 @@ h2 {
 /*colored border for footer*/
 .footerwrapper {
 	border-top: 10px;
-    border-top-color: #2eb8b8;
+    border-top-color: #4aaaa5;
     border-top-style: solid;
     padding: 20px;
     height: auto;
@@ -115,7 +122,8 @@ h2 {
 
 /*sticky footer*/
 footer {
-	background-color: #036;
+    font-family: arial, helvetica, sans-serif, 'helvetica neue';
+	background-color: #666;
 	display: table-row;
 	height: 1px;
 	color: #fff;
@@ -126,4 +134,28 @@ footer {
 .footerlink {
     color: #fff;
     text-decoration: none;    
+}
+
+input {
+    float: left;
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    width: 15%;
+    padding: 2%;
+    color: #fff;
+    float: left;
+    border: none;
+}
+
+textarea {
+    width: 100%;   
+}
+
+.form {
+    color: #777;
+    padding-bottom: 1%;
+    padding-top: 5%;
 }
