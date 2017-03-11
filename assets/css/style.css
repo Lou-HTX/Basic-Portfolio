@@ -1,11 +1,12 @@
 html,
 body {
 	/*margin: 0;*/
-	display: table;
+    display: table;
 	height: 100%;
 	width: 100%;
 	background-image: url("../images/LuisMorenoBackground.png");
-	background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 
