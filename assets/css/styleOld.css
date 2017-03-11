@@ -1,26 +1,28 @@
-html,
-body {
-	/*margin: 0;*/
-	display: table;
-	height: 100%;
-	width: 100%;
-	background-image: url("../images/LuisMorenoBackground.png");
-	background-position: center;
+/*html {
+    display: table;
+    height: 100%;
+    width: 100%;
 }
 
-
-/*responsive content*/
 .wrapper {
-	height: auto;
-	margin-left: 12%;
-	margin-right: 3%;
-	margin-top: 7%;
-	height: auto;
+    padding: 20px;
+    height: auto;
+
+}*/
+
+/*page margins, background, and width*/
+body {
+    background-image: url("../images/LuisMorenoBackground.png");
+    background-position: center;
+    background-size: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 
 /*links in nav bar aside from name*/
 .headerlink {
-    font-family: georgia, times, "times new roman", serif;
     float: left;
     color: #bfbfbf;
     text-decoration: none;
@@ -30,10 +32,9 @@ body {
 /*name in nav bar style*/
 .name:link, .name:visited {
     float: left;
-    font-family: georgia, times, "times new roman", serif;
     margin-left: 12.5%;
-    margin-right: 38%;
-    background-color: #4aaaa5;
+    margin-right: 30%;
+    background-color: #2eb8b8;
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -50,7 +51,7 @@ body {
 /*nav bar position and style*/
 ul {
     background-color: #fff;
-    border-bottom: solid #ccc 5px;
+    border-bottom: solid #2eb8b8 5px;
     position: fixed;
     top: 0;
     left: 0;
@@ -59,15 +60,12 @@ ul {
 
 /*about me area*/
 #aboutme {
-    font-family: arial, helvetica, sans-serif, 'helvetica neue';
     float: left;
     background-color: #fff;
-    width: 50%;
+    width: 45%;
     padding: 3%;
-    margin-left: auto;
+    margin-top: 10%;
     margin-right: 3%;
-    margin-bottom: 3%;
-    color: #777;
 }
 
 /*padding added to bring text down further*/
@@ -92,17 +90,17 @@ ul {
     float: left;
     background-color: #fff;
     padding: 2%;
+    margin-top: 10%;
 }
 
 /*style for the headings connect with me and about me*/
 h2 {
     font-weight: bold;
-    font-family: georgia, times, "times new roman", serif;
     font-size: 25px;
-    color: #4aaaa5;
+    color: #2eb8b8;
     padding-bottom: 4%;
     border-bottom: solid;
-    border-bottom-color: #ddd;
+    border-bottom-color: #eee;
     border-bottom-width: 5px;
 }
 
@@ -111,51 +109,25 @@ h2 {
     padding-top: 4%;
 }
 
-/*colored border for footer*/
-.footerwrapper {
-	border-top: 10px;
-    border-top-color: #4aaaa5;
-    border-top-style: solid;
-    padding: 20px;
-    height: auto;
-}
-
-/*sticky footer*/
+/*footer bar with copyright info*/
 footer {
-    font-family: arial, helvetica, sans-serif, 'helvetica neue';
-	background-color: #666;
-	display: table-row;
-	height: 1px;
-	color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 10px;
+    border-top-color: #2eb8b8;
+    border-top-style: solid;
+    background-color: #036;
+    padding-top: 1%;
+    padding-bottom: 1%;
     text-align: center;
+    color: #fff;
+    margin-top: 100px;
 }
 
 /*change the color of the link in the footer to white*/
 .footerlink {
     color: #fff;
     text-decoration: none;    
-}
-
-input {
-    float: left;
-    width: 100%;
-}
-
-input[type=submit] {
-    background-color: #4aaaa5;
-    width: 15%;
-    padding: 2%;
-    color: #fff;
-    float: left;
-    border: none;
-}
-
-textarea {
-    width: 100%;   
-}
-
-.form {
-    color: #777;
-    padding-bottom: 1%;
-    padding-top: 5%;
 }
